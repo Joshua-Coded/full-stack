@@ -1,0 +1,34 @@
+.about-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    color: #005a87;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.mission,
+.vision {
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.mission h2,
+.vision h2 {
+    color: #004d66;
+}
+
+.mission p,
+.vision p {
+    color: #333;
+    line-height: 1.6;
+}

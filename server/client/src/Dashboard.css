@@ -1,0 +1,62 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    flex: 0 0 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content {
+    flex: 0 0 75%;
+    background-color: #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chart-container {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Style adjustments for sidebar buttons */
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #ccc;
+}
+
+
+.sidebar {
+    flex-basis: 20%;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
