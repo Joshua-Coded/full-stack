@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // Unified CORS configuration
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://full-stack-iiao.onrender.com/',
     credentials: true,
 }));
 
